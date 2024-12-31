@@ -12,7 +12,7 @@ posts.sort((a, b) => {
   const dateB = new Date(b.data.pubDate).getTime();
   return dateB - dateA;
 });
-posts.splice(2)
+posts.splice(3)
 ---
 
 <Layout seo={homePageContent.seo}>
@@ -57,7 +57,7 @@ posts.splice(2)
       {
         posts.map((post) => (
           <a
-            href={`/blog/${post.id}`}
+            href={`${post.data.link}`}
             class=" sm:flex sm:flex-row-reverse sm:justify-between sm:gap-6 post"
           >
             <Image

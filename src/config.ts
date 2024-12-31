@@ -9,9 +9,9 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
-  logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  name: "Rodolfo Campos",
+  logo: "/logo.jpeg",
+  email: "rodolfocampos459@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -36,13 +36,13 @@ export const navBarLinks: NavBarLink[] = [
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/RodolfoCamposGlz",
     icon: "mdi:github",
     external: true,
   },
   {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    url: "mailto:rodolfocampos459@gmail.com",
     icon: "mdi:email",
   },
 ];
@@ -50,14 +50,14 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Rodolfo Campos",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Software Developer passionate about building high-quality, innovative solutions.",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "Software Developer",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+    "I'm Rodolfo Campos, a Full Stack Developer with 5 years of experience and a passion for crafting high-quality, innovative solutions.",
   socialLinks: socialLinks,
   links: [
     {
@@ -74,15 +74,15 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "About | Rodolfo Campos",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Software Developer passionate about building high-quality, innovative solutions.",
     image: identity.logo,
   },
   subtitle: "Some information about myself",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
+I'm Rodolfo Campos, a Full Stack Developer with 5 years of experience and a passion for crafting high-quality, innovative solutions.
 <br/><br/>
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
 Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
@@ -127,7 +127,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
+    title: "Projects | Rodolfo Campos",
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
@@ -160,7 +160,7 @@ export const projectsPageContent: ProjectPageContent = {
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
+    title: "Blog | Rodolfo Campos",
     description: "Thoughts, stories and ideas.",
     image: identity.logo,
   },
