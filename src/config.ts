@@ -84,8 +84,12 @@ export const aboutPageContent: AboutPageContent = {
     description: `
 I'm Rodolfo Campos, a Full Stack Developer with 5 years of experience and a passion for crafting high-quality, innovative solutions.
 <br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+My journey in the tech industry began with a strong foundation in computer science and a keen interest in software development. Over the years, I've honed my skills in various programming languages and frameworks, allowing me to tackle complex projects with confidence and creativity.
+I have experience in langagues like: 
+**Javascript**, **Typescript**, **Python**, **Go**.
+<br/><br/>
+I have experience in frameworks like: **React**, **Next.js**, **Node.js**, **Express**, **Nest.js**, **MongoDB**, **PostgreSQL**, **Docker**, **AWS**, **Google Cloud Platform**.
+`, // Markdown is supported
     image_l: {
       url: "/demo-1.jpg",
       alt: "Left Picture",
@@ -99,22 +103,22 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
     description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
     items: [
       {
-        title: "Software Developer",
+        title: "Software engineer",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          name: "Novel bank (Y Combinator)",
+          image: "/logo-novel-app.svg",
+          url: "https://vercel.com/rodolfocamposjs-projects/starlight-demo",
         },
-        date: "2021 - Present",
+        date: "2020 - 2024",
       },
       {
-        title: "Software Developer",
+        title: "Fullstack developer",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          name: "Digita Studio",
+          image: "/logo-digita.png",
+          url: "https://www.linkedin.com/company/digita-studio/posts/?feedView=all",
         },
-        date: "2019 - 2021",
+        date: "2020 - 2020",
       },
     ],
   },
@@ -134,25 +138,44 @@ export const projectsPageContent: ProjectPageContent = {
   subtitle: "Check out what I've been working on.",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Novel bank",
+      description:
+        "Novel Bank is a fintech startup helping international founders easily open U.S. bank accounts, offering ACH transfers, wires, check processing, and virtual or physical cards.",
+      image: "/novel.png",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://starlight-demo.vercel.app/dashboard",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Truehealth",
+      description:
+        "Truehealth is a ios app powered by Llama 3.1 LLM it helps users to treat skin issues",
+      image: "/truehealth.png",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/truehealthai",
     },
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Blockstem",
+      description:
+        "Blockstem is a web app to generate elections and votes for companies or goverment.",
+      image: "/blockstem.png",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://www.linkedin.com/company/blockstem/",
+    },
+    {
+      title: "Fareli app",
+      description:
+        "Fareli app is an app for ios, android and web that manage the orders for sellers, multimarks and clients for a shoe company",
+      image: "/fareli.png",
+      year: "2020",
+      url: "https://apps.apple.com/mx/app/fareli/id1524232700",
+    },
+    {
+      title: "Armadillorent.com",
+      description:
+        "Armadillorent.com is a platform for rent your construction machine.This project was canceled because of the COVID-19 Situation the last version was this:",
+      image: "/armadillorent.png",
+      year: "2020",
+      url: "https://unruffled-bhabha-dea282.netlify.app/",
     },
   ],
 };
